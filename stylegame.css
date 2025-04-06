@@ -112,3 +112,12 @@ img {
         padding: 1rem;
     }
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff; /* or any background color */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
