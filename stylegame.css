@@ -64,7 +64,7 @@ img {
     margin-top: 4rem;
 }
 
-/* #msg {
+#msg {
     margin-top: 2rem;
     background-color: #081b31;
     color: #fff;
@@ -73,16 +73,6 @@ img {
     display: inline-block;
     padding: 2rem;
     border-radius: 1rem;
-} */
-#msg {
-    margin-top: 2rem;
-    background-color: #081b31;
-    color: #fff;
-    font-size: 1.5rem;       /* ⬅️ Changed from 2rem to 1.5rem */
-    text-align: center;
-    display: inline-block;
-    padding: 1rem ;     /* ⬅️ Reduced padding */
-    border-radius: 0.75rem;   /* ⬅️ Slightly smaller radius */
 }
 
 
