@@ -72,21 +72,13 @@ body {
     color: #fffc7f;
     font-size: 8vmin;
 }
-
 .msg-container {
-    position: fixed;               /* Make it overlay everything */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
     gap: 2rem;
-    z-index: 1000;
-    text-align: center;
+    margin-top: 2rem;
 }
 
 
