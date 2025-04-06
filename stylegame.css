@@ -3,10 +3,17 @@
     padding: 0;
     text-align: center;
 }
+
 body {
-    padding-bottom: 120px; /* Ensures content won't hide behind the footer */
+    padding-bottom: 100px;
+    /* 🧱 Space below content so footer doesn't overlap */
 }
 
+.msg-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* ✅ Extra space above footer */
+}
 
 h1 {
     background-color: #081b31;
@@ -54,7 +61,7 @@ img {
     align-items: center;
     font-size: 2.5rem;
     margin-top: 3rem;
-    gap: 5rem;
+    gap: 10rem;
     flex-wrap: wrap;
     /* ✅ Allow wrapping on small screens */
 }
@@ -64,13 +71,10 @@ img {
     font-size: 4rem;
 }
 
+/* 
 .msg-container {
-    margin-bottom: 100px; /* Gives space above footer */
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
+    margin-top: 4rem;
+} */
 
 #msg {
     margin-top: 2rem;
@@ -82,7 +86,6 @@ img {
     padding: 2rem;
     border-radius: 1rem;
 }
-
 
 /* ✅ Media Query for smaller screens */
 @media (max-width: 768px) {
@@ -115,13 +118,4 @@ img {
         font-size: 1.5rem;
         padding: 1rem;
     }
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #fff; /* or any background color */
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
