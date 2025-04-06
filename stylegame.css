@@ -3,6 +3,10 @@
     padding: 0;
     text-align: center;
 }
+body {
+    padding-bottom: 120px; /* Ensures content won't hide behind the footer */
+}
+
 
 h1 {
     background-color: #081b31;
