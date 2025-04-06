@@ -65,8 +65,12 @@ img {
 }
 
 .msg-container {
-    margin-top: 4rem;
+    margin-bottom: 100px; /* Gives space above footer */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
+
 
 #msg {
     margin-top: 2rem;
