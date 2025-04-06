@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin-top: 0;
+    width: 100vw;
+    display: block;
+    text-align: center;
+}
+
+
+body {
+    background-color: #548687;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 🟢 Always 3 columns */
+    gap: 2vmin;
+    width: fit-content;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.70);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #4fc7f3;
+}
+
+#reset-btn,
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+    background-color: #2e2e2e;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+#msg {
+    color: #fffc7f;
+    font-size: 8vmin;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.hide {
+    display: none;
+}
